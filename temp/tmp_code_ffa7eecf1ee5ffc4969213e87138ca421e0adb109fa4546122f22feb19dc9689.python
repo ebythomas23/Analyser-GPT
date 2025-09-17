@@ -1,0 +1,7 @@
+import pandas as pd
+
+# Load the CSV file
+df = pd.read_csv('filename.csv')  # Please replace 'filename.csv' with the actual file name.
+
+# Print the columns
+print(df.columns.tolist())
