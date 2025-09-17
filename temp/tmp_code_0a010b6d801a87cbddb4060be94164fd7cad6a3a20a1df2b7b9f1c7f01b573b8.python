@@ -1,0 +1,14 @@
+import pandas as pd
+import matplotlib.pyplot as plt
+
+# Load the CSV file into a DataFrame
+df = pd.read_csv('data.csv')
+
+# Plot all columns
+df.plot(kind='line', subplots=True, layout=(len(df.columns), 1), figsize=(10, len(df.columns) * 3), sharex=False)
+
+# Save the plot as an image
+plt.tight_layout()
+plt.savefig('output.png')
+
+print("Plot has been created and saved as output.png.")
