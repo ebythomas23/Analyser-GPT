@@ -1,7 +1,7 @@
 from autogen_agentchat.teams import RoundRobinGroupChat
 from autogen_agentchat.conditions import TextMentionTermination
 from agents.Code_executorAgent import getCodeExecutorAgent
-from agents.Data_analyzer_agent import git init
+from agents.Data_analyzer_agent import getDataAnalyzerAgent
 
 
 
