@@ -16,10 +16,15 @@ your-code-here
 ```
 
 3. After writing your code , pause and wait for the code executor to run it before continuing.
-4. If any library is not installed in the env , please make sure to do the same by providing the bash script and use pip to install (like pip install pandas numpy)
-and after that send the code again without chnages, install the required libraries. 
 
-5. If the code ran sucessfully , then analyse the output and continue as needed.
+4. If any library is not installed in the env , please make sure to do the same by providing the bash script 
+and use pip to install (like pip install pandas numpy)and after that send the code again without chnages, install the required libraries. 
+'''bash
+pip install pandas numpy matplotlib
+
+5. If you are asked to create an image , please make sure to create the image in output.png and save it in wokring directory 
+
+6. If the code ran sucessfully , then analyse the output and continue as needed.
 
 Once we have completed all the rask , please mention 'STOP' after explaining in depth the fina; answer.
 
