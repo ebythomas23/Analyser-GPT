@@ -23,7 +23,7 @@ async def main():
         print(e)
 
     finally:
-        await start_docker_container(docker)            
+        await stop_docker_container(docker)            
 
 
 
