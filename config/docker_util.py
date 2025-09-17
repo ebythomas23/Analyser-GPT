@@ -1,5 +1,7 @@
-from autogen_ext.code_executor.docker import DockerCommandLineCodeExecutor
-from constants import WORK_DIR_DOCKER,TIMEOUT_DOCKER
+
+from autogen_ext.code_executors.docker import DockerCommandLineCodeExecutor
+from config.constants import WORK_DIR_DOCKER,TIMEOUT_DOCKER
+
 
 
 def getDockerCommandLineExecutor():
@@ -21,4 +23,3 @@ async def stop_docker_container(docker):
     print("Stopping docker container") 
     await docker.stop()
     print("Docker container stopped" )        
-    
