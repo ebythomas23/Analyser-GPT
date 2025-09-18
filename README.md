@@ -6,7 +6,7 @@
 
 ## Overview
 
-Analyser-GPT is a cutting-edge agentic AI application designed to automate and streamline data analysis workflows. Leveraging the Microsoft Autogen framework, this project orchestrates multiple specialized AI agents to analyze tabular data, generate Python code, and execute it securely in a Dockerized environment. The results are presented interactively via a modern Streamlit web interface.
+Analyser-GPT is a agentic AI application designed to automate and streamline data analysis workflows. Leveraging the Microsoft Autogen framework, this project orchestrates multiple specialized AI agents to analyze tabular data, generate Python code, and execute it securely in a Dockerized environment. The results are presented interactively via a modern Streamlit web interface.
 
 ---
 
@@ -23,7 +23,7 @@ Analyser-GPT is a cutting-edge agentic AI application designed to automate and s
 
 ## Architecture & Workflow
 
-![Workflow Diagram](./workflow.png)
+![Workflow Diagram](./Workflow-Diagram.png)
 
 1. **User uploads a CSV file** via Streamlit.
 2. **Data Analyzer Agent** (LLM-powered):
@@ -128,8 +128,3 @@ uv pip run main.py
 
 MIT License (see LICENSE file)
 
----
-
-This project showcases advanced skills in agentic AI, multi-agent orchestration, secure code execution, and modern Python development. Ideal for roles in AI engineering, data science automation, and intelligent workflow design.
-
----
