@@ -17,7 +17,6 @@ Analyser-GPT is a agentic AI application designed to automate and streamline dat
 - **Docker**: Isolated Python environment for safe code execution.
 - **Streamlit**: Fast, interactive web UI for data upload and chat-based analysis.
 - **uv**: Ultra-fast Python package manager and build tool ([uv documentation](https://github.com/astral-sh/uv)).
-- **Python 3.13+**: Modern, type-safe Python codebase.
 
 ---
 
@@ -78,8 +77,6 @@ requirements.txt, pyproject.toml # Dependencies and build config
 
 ## Installation
 
-This project uses [uv](https://github.com/astral-sh/uv) for ultra-fast dependency management and builds.
-
 ```bash
 # Install uv (if not already installed)
 pip install uv
@@ -103,17 +100,6 @@ uv pip run main.py
 ```
 
 ---
-
-## Why This Project Stands Out
-
-- **Agentic AI**: Demonstrates advanced multi-agent orchestration using Microsoft Autogen.
-- **Secure & Scalable**: Dockerized code execution for safety and reproducibility.
-- **Modern UI**: Streamlit-based chat interface for interactive analysis.
-- **Extensible**: Easily adaptable for new data types, agents, or workflows.
-- **Industry-Ready**: Follows best practices for AI engineering, modularity, and security.
-
----
-
 ## Learn More
 
 - [Microsoft Autogen Documentation](https://microsoft.github.io/autogen/)
@@ -122,9 +108,5 @@ uv pip run main.py
 - [OpenAI API Reference](https://platform.openai.com/docs/)
 - [uv Documentation](https://github.com/astral-sh/uv)
 
----
 
-## License
-
-MIT License (see LICENSE file)
 
