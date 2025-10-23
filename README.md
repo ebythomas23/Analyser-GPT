@@ -93,10 +93,10 @@ uv pip install -r pyproject.toml
 
 ```bash
 # Run the Streamlit web app
-uv  run streamlit_app.py
+uv run streamlit run streamlit_app.py
 
 # Or run CLI demo
-uv  run main.py
+uv run main.py
 ```
 
 ---
